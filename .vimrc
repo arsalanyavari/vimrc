@@ -37,7 +37,7 @@ inoremap <silent> <C-S-;> <esc>:<C-B>silent <C-E>s/^\V<C-R>=escape(b:comment_lea
 
 au BufRead,BufNewFile *.py,*.pyw,*.conf,*.c,*.cpp,*.h,*.sh match BadWhitespace /\s\+$/
 highlight BadWhitespace ctermbg=red guibg=darkred
-set list
+" set list
 set listchars=tab:›\ ,trail:•
 
 " auto complete for ( , " , ' , [ , {
